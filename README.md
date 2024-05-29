@@ -14,7 +14,7 @@ Este projeto implementa um sistema de detecção de spam em e-mails utilizando t
 ## Dataset
 O conjunto de dados utilizado é o [SMS Spam Collection Dataset](https://archive.ics.uci.edu/dataset/228/sms+spam+collection) da UCI, contendo 5.574 mensagens classificadas como spam ou ham.
 
-<img src="imagens/spam csv.png">
+<img src="imagens/spam .png">
 
 ## Processamento de Dados
 1. **Carregamento dos dados:** Leitura do dataset e visualização inicial.
@@ -56,7 +56,7 @@ O modelo Random Forest apresentou o melhor desempenho geral, com alta acurácia 
 - Bibliotecas: pandas, numpy, scikit-learn, xgboost, matplotlib, seaborn, nltk
 
 ## Instruções
-1. Clone este repositório: `git clone https://github.com/seu-usuario/seu-repositorio.git`
+1. Clone este repositório: `[git clone https://github.com/seu-usuario/seu-repositorio.git](https://github.com/Saulo-Azevedo/TCC_POS_PUC.git)`
 2. Navegue até o diretório do projeto: `cd seu-repositorio`
 3. Instale as dependências: `pip install -r requirements.txt`
 4. Execute os notebooks de análise exploratória e treinamento de modelo em `notebooks/`.
