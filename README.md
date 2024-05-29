@@ -3,7 +3,7 @@
 ## Introdução
 Este projeto implementa um sistema de detecção de spam em e-mails utilizando técnicas avançadas de Machine Learning. Através de uma análise comparativa de diversos algoritmos, buscamos identificar a melhor abordagem para a classificação de mensagens como spam ou não-spam.
 
-<img src="">
+<img src="https://github.com/Saulo-Azevedo/TCC_POS_PUC/blob/61e96858b825e4af7397cfcaffca099fd53e9d8a/imagens/image1.jpeg">
 
 
 ## Objetivos
@@ -14,14 +14,16 @@ Este projeto implementa um sistema de detecção de spam em e-mails utilizando t
 ## Dataset
 O conjunto de dados utilizado é o [SMS Spam Collection Dataset](https://archive.ics.uci.edu/dataset/228/sms+spam+collection) da UCI, contendo 5.574 mensagens classificadas como spam ou ham.
 
-![Dataset Preview](https://via.placeholder.com/600x200.png?text=Dataset+Preview)
+<img src="imagens/spam csv.png">
 
 ## Processamento de Dados
 1. **Carregamento dos dados:** Leitura do dataset e visualização inicial.
 2. **Limpeza dos dados:** Remoção de colunas irrelevantes, tratamento de valores ausentes e duplicados.
 3. **Pré-processamento:** Aplicação de técnicas de stemming e remoção de stopwords.
 
-![Processamento de Dados](https://via.placeholder.com/600x200.png?text=Processamento+de+Dados)
+Percentual de Mensagens HAM e Spam.
+
+<img src="imagens/image3.png" with = "100"  length="100">
 
 ## Modelos de Machine Learning
 Os seguintes algoritmos foram avaliados:
@@ -41,12 +43,13 @@ Os modelos foram avaliados com base na acurácia e precisão. Os resultados fora
 | SVM            | 97.58%   | 97.48%   |
 | XGBoost        | 96.71%   | 92.62%   |
 
-![Comparação de Modelos](https://via.placeholder.com/600x200.png?text=Comparação+de+Modelos)
+<img src="imagens/image13.png">
+
 
 ## Conclusão
 O modelo Random Forest apresentou o melhor desempenho geral, com alta acurácia e precisão na detecção de spam.
 
-![Random Forest Performance](https://via.placeholder.com/600x200.png?text=Random+Forest+Performance)
+<img src="imagens/image12.png">
 
 ## Requisitos
 - Python 3.8+
